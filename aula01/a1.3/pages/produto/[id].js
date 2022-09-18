@@ -1,14 +1,12 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link'
 
-export default function Post() {
+export default function ProdutoPage() {
   const router = useRouter();
-
-  console.log(router);
 
   return (
     <div>
-      SLUG do Post: {router.query.slug}
+      ID do Produto: {router.query.id}
 
       <ul>
         <li>
