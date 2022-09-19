@@ -38,7 +38,7 @@ export async function getStaticProps(context) {
       date: post.date,
       content: post.content,
     },
-    revalidate: 60,
+    revalidate: 59,
   }
 }
 
