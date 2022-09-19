@@ -17,7 +17,7 @@ export default function DynamicImportPage() {
           }}
         />
       </p>
-      {isVisible && <YouTubeVideo />}      
+      {isVisible && <YouTubeVideo />}
     </div>
   )
 }
